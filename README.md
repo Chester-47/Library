@@ -435,6 +435,14 @@ no request body
   }
 }
 ```
+```
+{
+  "status": "fail",
+  "data": {
+    "title": "Author does not exist"
+  }
+}
+```
 ### Get All Book-Author Relationships: GET /book_authors/read (requires JWT)
 **Request**
 ```
